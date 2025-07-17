@@ -19,13 +19,19 @@ The goal of this project is to:
 
 ## 📁 Dataset
 
-The dataset used is ``, which includes CRISPR-related patents with at least title and abstract fields.
+The data used in this project was manually gathered from Lens.org by searching for CRISPR-related patents focusing on delivery systems, within the years 2020 to 2024.
 
-> **Source:** The dataset was downloaded from a public data repository. We did not collect or scrape this data programmatically. Please refer to the original source for licensing and usage rights.
+Rather than downloading a complete dataset or using an API, a selection of patent records was curated based on perceived relevance and significance. The extracted data includes the following fields:
 
-If you're using a specific site like **Lens.org**, **PatentsView**, **Google Patents**, or **NCBI**, specify it:
+Lens ID
 
-> Source: [Lens.org](https://www.lens.org/)
+Publication Date
+
+Title
+
+Abstract
+
+These fields were stored in a CSV file named crispr_patents.csv, which serves as the input for the analysis.
 
 ---
 
@@ -34,7 +40,6 @@ If you're using a specific site like **Lens.org**, **PatentsView**, **Google Pat
 This project uses the following Python libraries:
 
 - `pandas`
-- `re`
 - `collections.Counter`
 - `matplotlib`
 
@@ -56,20 +61,16 @@ The script will output the most common cleaned words in the terminal and display
 
 ---
 
-## 📊 Output Example
-
-```
-[('rna', 152), ('nuclease', 137), ('guide', 124), ('sequence', 118), ...]
-```
-
-
-
----
-
 ## 📄 License
 
 This project is shared for educational and non-commercial purposes.\
 Please respect the license of the original dataset if you use it further.
+
+---
+
+## 📊 Results
+
+A bar chart showing the top 30 most frequent and meaningful words is saved and/or displayed at the end of the script. You can find the resulting visualization in the results/ folder:
 
 ---
 
