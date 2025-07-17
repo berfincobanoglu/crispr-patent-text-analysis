@@ -8,12 +8,15 @@ The project cleans and preprocesses the text data, removes common stopwords and 
 
 ## 🧪 Project Purpose
 
-The goal of this project is to:
+The goal of this project is to (with some preprocessing decisions guided by biological domain knowledge):
 
-- Combine title and abstract information from CRISPR-related patents.
-- Preprocess the text (lowercasing, removing punctuation, filtering stopwords).
-- Extract and visualize frequently used terms after cleaning.
-- Understand key vocabulary and trends in CRISPR patent literature.
+Combine title and abstract information from CRISPR-related patents.
+
+Preprocess the text (lowercasing, removing punctuation, filtering stopwords, and eliminating biologically uninformative or overly generic scientific terms such as 'method', 'system', or 'design').
+
+Extract and visualize frequently used terms after cleaning.
+
+Understand key vocabulary and trends in CRISPR patent literature.
 
 ---
 
