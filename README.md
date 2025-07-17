@@ -71,6 +71,7 @@ Please respect the license of the original dataset if you use it further.
 ## 📊 Results
 
 A bar chart showing the top 30 most frequent and meaningful words is saved and/or displayed at the end of the script. You can find the resulting visualization in the results/ folder:
+![Results.png]
 
 ---
 
