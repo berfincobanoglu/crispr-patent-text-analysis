@@ -18,6 +18,9 @@ Extract and visualize frequently used terms after cleaning.
 
 Understand key vocabulary and trends in CRISPR patent literature.
 
+### Why this matters
+This project was created to demonstrate how basic text mining with Python can support large-scale patent analysis workflows. Although I'm at an entry level in programming, combining my biology background with coding helped me uncover the most common terms in CRISPR delivery system patents — a skill I hope to refine in a professional setting.
+
 ---
 
 ## 📁 Dataset
